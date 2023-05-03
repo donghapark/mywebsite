@@ -1,0 +1,98 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  h1 {
+    
+    background-color: #ffffff;
+    color: #100404;
+    text-align: center;
+  
+    margin: 0 auto; /* 가운데 정렬을 위해 margin 속성 사용 */
+    height: 300px; 
+    /* 글자를 가운대로  */
+    font-size: 100px; 
+  }
+  
+  h1>p {
+    
+    color: #000000;
+    font-size: 50px;
+  }
+
+  
+  h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 뷰포트의 세로 전체를 사용 */
+    margin: 0;
+    line-height: 2.5; /* h2 엘리먼트의 줄간격을 늘림 */
+
+
+    background-color: #000000;
+    
+    color: #ffffff;
+    font-size: 36px;
+    height: 300px; 
+  }
+  
+  h2>p {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px 0; /* 각 문장의 위/아래 여백 */
+  }
+
+  h3 {
+    
+    background-color: #ffffff;
+    color: #333;
+    font-size: 36px;
+    
+    margin: 0 auto; /* 가운데 정렬을 위해 margin 속성 사용 */
+    height: 200px; 
+    text-align: center;
+    align-items: center;
+  }
+
+  h3 p img{
+    /* width: 100px; */
+    height: 100px; 
+  }
+  h4{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 36px;
+    
+    height: 800px;
+  }
+  h4 p {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  h5 {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    color: #333;
+    font-size: 36px;
+    background-color: #ffffff;
+   
+    height: 200px;
+  }
+  h5 img{
+    /* width: 100px; */
+    height: 100px; 
+  }
+
+
+
